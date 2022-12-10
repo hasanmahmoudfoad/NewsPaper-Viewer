@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.min.css">
+  <link rel="stylesheet" href="slider-news.css">
+  <link rel="stylesheet" href="all.min.css">
+  
+  <!-- Demo styles -->
+  <script src="jquery-3.4.1.min.js"></script>
+
+</head>
+<body>
+
+
+<br>
+<br>
+<div class="one"></div>
+<div class="two"></div>
+<div class="thee"></div>
+<div class='four'></div>
+
+
+<br>
+<br>
+  <!-- Swiper -->
+  <div class="large-cont">
+  <div class="swiper-container news-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide"> <div class="img-cont">
+          <a download>
+              <img width="300" src="news-1.png" ></a></div></div>
+      
+      <div class="swiper-slide"> <div class="img-cont">  
+           <a download>
+          <img width="300" src="news-2.png"></a></div></div>
+      
+      
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-3.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-4.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-5.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-6.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-7.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-8.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-9.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-10.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> <div class="img-cont">
+            <a download>
+                <img width="300" src="news-11.png"></a></div></div>
+
+          
+        <div class="swiper-slide"> 
+          <div class="img-cont">
+              <a download>
+                  <img width="300" src="news-12.png"></a>
+        </div></div>
+  
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+     
+       
+  <div class="task-bar">
+
+    <button  class="zoom-in">+</button>
+    <button  class="zoom-out">–</button>
+    <button class="defult-screen"><i class="far fa-square"></i></button>
+
+    <button onclick="toggleFullscreen();" class="full-screen"><div class="fs">↔</div></button>
+    <button id="print-icon"><i class="fas fa-print"></i></button>
+    <button id="download"><i class="fas fa-download"></i></button>
+    <div class="blur-section">
+      <input type="text" placeholder="enter a page number to Blur"  id="blur" >
+      <button  class="button-blur" >Blur</button>
+      <!-- <button  class="button-unblur" >Sharpen all</button> -->
+      <p class="blured">Blured successfully</p>
+      <p class="not-blured">This page doesnot exist</p>
+      <!-- <p class="Sharpen">Blur removed</p> -->
+    </div>
+</div>
+
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Swiper JS -->
+  <script src="jquery-3.4.1.min.js"></script>
+
+  <script src="swiper.min.js"></script>
+  
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 300,
+        grabCursor: true,
+        autoplay: 1000,
+        speed: 800,
+        autoplayDisableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+
+
+  </script>
+  <script src="slider-news.js"></script>
+  <script src="all.min.js"></script>
+</body>
+</html>
+
